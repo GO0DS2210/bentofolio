@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-preset="cobalt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Editorial Portfolio & Online Resume" />
+  <title>Portfolio & Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..500;1,6..72,400&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="wordmark" id="nav-brand">Portfolio</a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-controls">
+        <div class="swatch-group" role="group" aria-label="Select accent color">
+          <button type="button" class="swatch" data-set-preset="cobalt" title="Cobalt Accent" aria-label="Cobalt Accent"></button>
+          <button type="button" class="swatch" data-set-preset="forest" title="Forest Accent" aria-label="Forest Accent"></button>
+          <button type="button" class="swatch" data-set-preset="crimson" title="Crimson Accent" aria-label="Crimson Accent"></button>
+          <button type="button" class="swatch" data-set-preset="slate" title="Slate Accent" aria-label="Slate Accent"></button>
+        </div>
+
+        <button type="button" class="control-btn" id="theme-toggle" aria-label="Toggle light or dark mode" title="Toggle light or dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+
+        <button type="button" class="control-btn mobile-toggle" id="mobile-menu-btn" aria-label="Open navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-drawer" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <div class="container mobile-drawer-inner">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Opening Editorial Monograph -->
+    <section class="opening" id="top">
+      <div class="container opening-grid">
+        <figure class="portrait-column">
+          <div class="portrait-frame">
+            <img id="hero-avatar" src="assets/avatar-placeholder.svg" alt="Profile portrait" />
+          </div>
+          <figcaption class="portrait-meta">
+            <span id="hero-location"></span>
+            <span class="availability-note" id="availability-note"></span>
+          </figcaption>
+        </figure>
+
+        <div class="statement-column">
+          <h1 class="display-headline" id="hero-headline"></h1>
+          <p class="role-line" id="hero-institution"></p>
+
+          <div class="opening-actions">
+            <a href="#contact" class="btn-solid" id="hero-contact-btn">Get in touch</a>
+            <button type="button" class="btn-outline" id="cv-action-btn">
+              <span id="cv-action-label">Download Resume (PDF)</span>
+            </button>
+            <button type="button" class="btn-text" id="copy-email-btn">Copy email</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work: Interactive Monograph Index -->
+    <section class="editorial-section" id="work">
+      <div class="container">
+        <div class="section-bar">
+          <h2 class="section-heading">Selected work</h2>
+          <div class="filter-strip" id="project-filters" role="tablist" aria-label="Filter project category"></div>
+        </div>
+
+        <div class="work-index" id="projects-list"></div>
+      </div>
+    </section>
+
+    <!-- Experience: Asymmetric 2-Column Split -->
+    <section class="editorial-section" id="experience">
+      <div class="container split-layout">
+        <div class="split-rail">
+          <h2 class="section-heading">Experience</h2>
+        </div>
+        <div class="split-body" id="timeline-list"></div>
+      </div>
+    </section>
+
+    <!-- About & Capabilities: Asymmetric 2-Column Split -->
+    <section class="editorial-section" id="about">
+      <div class="container split-layout">
+        <div class="split-rail">
+          <h2 class="section-heading">About and skills</h2>
+        </div>
+        <div class="split-body">
+          <div class="prose-block" id="about-paragraphs"></div>
+          <div class="capabilities-grid" id="skills-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications: Clean Tabular Index -->
+    <section class="editorial-section" id="certifications">
+      <div class="container split-layout">
+        <div class="split-rail">
+          <h2 class="section-heading">Certifications</h2>
+        </div>
+        <div class="split-body">
+          <ul class="cert-index" id="cert-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Band -->
+    <section class="editorial-section contact-section" id="contact">
+      <div class="container split-layout">
+        <div class="split-rail">
+          <h2 class="section-heading">Contact</h2>
+        </div>
+        <div class="split-body">
+          <p class="contact-lead" id="contact-heading"></p>
+          <p class="contact-sub" id="contact-sub"></p>
+          <div class="contact-actions" id="contact-actions"></div>
+          <div class="social-links" id="social-row"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p id="footer-copy"></p>
+      <a href="#top" class="footer-top-link">Back to top</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="resume-pdf.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

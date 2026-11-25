@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="LedgerSheet cashflow dashboard UI mockup">
+  <rect width="640" height="360" fill="#DCE5DF"/>
+  <rect x="28" y="24" width="584" height="312" rx="12" fill="#FFFFFF" stroke="#BCCBC0" stroke-width="1.5"/>
+  <rect x="28" y="24" width="584" height="44" rx="12" fill="#163E2C"/>
+  <rect x="28" y="54" width="584" height="14" fill="#163E2C"/>
+  <text x="50" y="51" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">LedgerSheet — Monthly Cashflow</text>
+  <rect x="488" y="35" width="104" height="24" rx="6" fill="#2A6E4E"/>
+  <text x="540" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#FFFFFF">Export PDF</text>
+  <rect x="50" y="84" width="166" height="64" rx="8" fill="#F2F7F4" stroke="#D1E1D6"/>
+  <text x="64" y="106" font-family="system-ui, sans-serif" font-size="10" fill="#466353">Revenue</text>
+  <text x="64" y="132" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#163E2C">$9,480.00</text>
+  <rect x="236" y="84" width="166" height="64" rx="8" fill="#F7F8FA" stroke="#DCE2E8"/>
+  <text x="250" y="106" font-family="system-ui, sans-serif" font-size="10" fill="#52606E">Expenses</text>
+  <text x="250" y="132" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#1F2933">$3,120.00</text>
+  <rect x="422" y="84" width="168" height="64" rx="8" fill="#E8F3EC" stroke="#B7D7C2"/>
+  <text x="436" y="106" font-family="system-ui, sans-serif" font-size="10" fill="#1D5C3A">Net Profit</text>
+  <text x="436" y="132" font-family="system-ui, sans-serif" font-size="17" font-weight="700" fill="#14532D">$6,360.00</text>
+  <rect x="50" y="166" width="290" height="148" rx="8" fill="#FAFBF9" stroke="#E0E6E2"/>
+  <text x="66" y="188" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#1F2933">6-Week Revenue Trend</text>
+  <rect x="76" y="252" width="26" height="44" rx="4" fill="#A6CBB4"/>
+  <rect x="116" y="236" width="26" height="60" rx="4" fill="#7FB594"/>
+  <rect x="156" y="244" width="26" height="52" rx="4" fill="#7FB594"/>
+  <rect x="196" y="220" width="26" height="76" rx="4" fill="#3B875C"/>
+  <rect x="236" y="210" width="26" height="86" rx="4" fill="#1D5C3A"/>
+  <rect x="276" y="198" width="26" height="98" rx="4" fill="#14532D"/>
+  <rect x="356" y="166" width="234" height="148" rx="8" fill="#FAFBF9" stroke="#E0E6E2"/>
+  <text x="372" y="188" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#1F2933">Recent Entries</text>
+  <line x1="372" y1="202" x2="574" y2="202" stroke="#E5EAE7"/>
+  <text x="372" y="222" font-family="system-ui, sans-serif" font-size="11" fill="#24303B">Client Retainer</text>
+  <text x="574" y="222" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#14532D">+$450.00</text>
+  <line x1="372" y1="234" x2="574" y2="234" stroke="#E5EAE7"/>
+  <text x="372" y="254" font-family="system-ui, sans-serif" font-size="11" fill="#24303B">Cloud Hosting</text>
+  <text x="574" y="254" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#9F1239">-$48.00</text>
+  <line x1="372" y1="266" x2="574" y2="266" stroke="#E5EAE7"/>
+  <text x="372" y="286" font-family="system-ui, sans-serif" font-size="11" fill="#24303B">Studio Bundle</text>
+  <text x="574" y="286" text-anchor="end" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#14532D">+$290.00</text>
+</svg>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-preset="cobalt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Portfolio & Online Resume" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="#top" class="brand-mark" id="nav-brand">GO0DS2210</a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#journey">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="topbar-controls">
+        <div class="swatch-bar" role="group" aria-label="Select accent color">
+          <button type="button" class="swatch-btn" data-set-preset="cobalt" title="Cobalt" aria-label="Cobalt theme"></button>
+          <button type="button" class="swatch-btn" data-set-preset="matcha" title="Matcha" aria-label="Matcha theme"></button>
+          <button type="button" class="swatch-btn" data-set-preset="terracotta" title="Terracotta" aria-label="Terracotta theme"></button>
+          <button type="button" class="swatch-btn" data-set-preset="plum" title="Plum" aria-label="Plum theme"></button>
+        </div>
+
+        <button type="button" class="icon-control" id="theme-toggle" aria-label="Toggle light or dark mode" title="Toggle light or dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+
+        <button type="button" class="icon-control mobile-menu-btn" id="mobile-menu-btn" aria-label="Open navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <div class="container mobile-nav-inner">
+        <a href="#work">Work</a>
+        <a href="#journey">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content" class="container page-stack">
+    <!-- OPENING BENTO HERO -->
+    <section class="bento-hero" id="top" aria-label="Introduction">
+      <div class="tile tile-hero">
+        <svg class="hero-topo" viewBox="0 0 680 440" fill="none" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
+          <g stroke="currentColor" stroke-width="1.2">
+            <path d="M320 460 C350 370, 440 350, 520 290 C590 238, 630 160, 700 130"/>
+            <path d="M365 460 C395 390, 470 370, 545 315 C610 266, 650 198, 705 170"/>
+            <path d="M410 460 C440 408, 504 388, 570 340 C628 296, 665 236, 710 212"/>
+            <path d="M458 460 C486 424, 540 406, 598 366 C648 330, 680 278, 715 256"/>
+            <path d="M512 460 C542 438, 586 422, 632 392 C668 368, 694 328, 720 308"/>
+            <path d="M265 460 C300 346, 405 322, 492 256 C570 196, 610 112, 700 78"/>
+            <path d="M210 460 C252 318, 368 292, 464 218 C548 152, 590 62, 695 24"/>
+            <path d="M485 -20 C520 55, 595 80, 690 48"/>
+            <path d="M535 -20 C566 36, 626 52, 695 28"/>
+          </g>
+        </svg>
+
+        <span class="avail-pill" id="hero-availability"></span>
+        <h1 class="hero-title" id="hero-headline"></h1>
+        <p class="hero-bio" id="hero-bio"></p>
+
+        <div class="hero-cta-row">
+          <a href="#contact" class="btn-primary">Get in touch</a>
+          <button type="button" class="btn-secondary" id="cv-action-btn">
+            <span id="cv-action-label">Download Resume (PDF)</span>
+          </button>
+          <button type="button" class="btn-ghost" id="copy-email-btn">Copy email</button>
+        </div>
+      </div>
+
+      <!-- Scenic Indonesian Highlands Profile Card (Looping Video / Poster) -->
+      <aside class="tile tile-profile" id="profile-card" aria-label="Profile card">
+        <div class="profile-media" id="profile-media" aria-hidden="true"></div>
+        <div class="profile-scrim" aria-hidden="true"></div>
+
+        <div class="profile-top">
+          <div class="profile-head">
+            <div class="profile-avatar">
+              <img id="hero-avatar" src="assets/avatar-go0ds.svg" alt="Profile portrait" />
+            </div>
+            <div>
+              <p class="profile-name" id="profile-name"></p>
+              <p class="profile-handle" id="profile-handle"></p>
+              <p class="profile-role" id="profile-role"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-bottom">
+          <div class="profile-meta-row">
+            <span id="profile-city"></span>
+            <span class="profile-clock" id="live-clock">--:-- WIB</span>
+          </div>
+
+          <div class="profile-socials" id="hero-socials"></div>
+        </div>
+      </aside>
+
+      <!-- Skills Strip -->
+      <div class="tile tile-skills" aria-label="Skills and tools">
+        <div class="skills-row" id="skills-track"></div>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section class="section-block" id="work">
+      <div class="section-bar">
+        <h2 class="section-heading">Selected work</h2>
+        <div class="filter-tabs" id="project-filters" role="tablist" aria-label="Filter project category"></div>
+      </div>
+
+      <div class="bento-projects" id="projects-grid"></div>
+    </section>
+
+    <!-- EXPERIENCE & CERTIFICATIONS -->
+    <section class="section-block" id="journey">
+      <div class="bento-two-col">
+        <div class="tile tile-padded">
+          <h2 class="tile-heading">Experience</h2>
+          <div class="timeline-stack" id="timeline-list"></div>
+        </div>
+
+        <div class="tile tile-padded">
+          <h2 class="tile-heading">Certifications</h2>
+          <ul class="cert-stack" id="cert-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section-block" id="contact">
+      <div class="tile tile-contact">
+        <div class="contact-copy">
+          <h2 class="contact-heading" id="contact-heading"></h2>
+          <p class="contact-sub" id="contact-sub"></p>
+        </div>
+        <div class="contact-actions" id="contact-actions"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p id="footer-copy"></p>
+      <a href="#top" class="footer-link">Back to top</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="resume-pdf.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

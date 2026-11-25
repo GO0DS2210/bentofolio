@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480" role="img" aria-label="Monogram profil GO0DS2210">
+  <rect width="400" height="480" fill="#17202B"/>
+  <line x1="36" y1="0" x2="36" y2="480" stroke="#F5F6F4" stroke-opacity="0.09" stroke-width="1"/>
+  <line x1="364" y1="0" x2="364" y2="480" stroke="#F5F6F4" stroke-opacity="0.09" stroke-width="1"/>
+  <line x1="0" y1="48" x2="400" y2="48" stroke="#F5F6F4" stroke-opacity="0.09" stroke-width="1"/>
+  <line x1="0" y1="432" x2="400" y2="432" stroke="#F5F6F4" stroke-opacity="0.09" stroke-width="1"/>
+  <path d="M26 48 H46 M36 38 V58" stroke="#74A6FF" stroke-width="1.2"/>
+  <path d="M354 432 H374 M364 422 V442" stroke="#74A6FF" stroke-width="1.2"/>
+  <text x="200" y="264" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="112" font-weight="400" letter-spacing="-3" fill="#F5F6F4">G22</text>
+  <line x1="128" y1="306" x2="272" y2="306" stroke="#74A6FF" stroke-width="1.5"/>
+  <text x="200" y="336" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" letter-spacing="2.2" fill="#B8C4D0">GO0DS2210</text>
+</svg>

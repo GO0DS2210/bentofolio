@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Roast and Craft menu catalog UI mockup">
+  <rect width="640" height="360" fill="#E6E1D8"/>
+  <rect x="28" y="24" width="584" height="312" rx="12" fill="#FCFBF8" stroke="#C9C2B6" stroke-width="1.5"/>
+  <path d="M28 58 H612" stroke="#E5DFD5" stroke-width="1"/>
+  <circle cx="48" cy="41" r="4.5" fill="#C9C2B6"/>
+  <circle cx="64" cy="41" r="4.5" fill="#C9C2B6"/>
+  <circle cx="80" cy="41" r="4.5" fill="#C9C2B6"/>
+  <rect x="190" y="32" width="260" height="18" rx="5" fill="#F1ECE4"/>
+  <text x="320" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#6F665B">roastandcraft.netlify.app</text>
+  <!-- Hero strip inside browser -->
+  <rect x="52" y="76" width="248" height="236" rx="10" fill="#2A211B"/>
+  <text x="72" y="114" font-family="Georgia, serif" font-size="22" fill="#FAF6F0">Roast &amp; Craft</text>
+  <text x="72" y="136" font-family="system-ui, sans-serif" font-size="11" fill="#D5C8B8">Specialty Coffee &amp; Bakery</text>
+  <rect x="72" y="158" width="208" height="72" rx="8" fill="#3B2F27"/>
+  <circle cx="110" cy="194" r="22" fill="#C58940"/>
+  <circle cx="110" cy="194" r="14" fill="#4E3422"/>
+  <text x="146" y="188" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#FAF6F0">Iced Palm Latte</text>
+  <text x="146" y="206" font-family="system-ui, sans-serif" font-size="11" fill="#E5BA73">$4.50 · House Favorite</text>
+  <rect x="72" y="250" width="208" height="36" rx="8" fill="#1D5C3A"/>
+  <text x="176" y="273" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Checkout Order (2 items)</text>
+  <!-- Menu grid right -->
+  <text x="322" y="96" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#2A211B">Menu Catalog</text>
+  <rect x="322" y="108" width="58" height="22" rx="6" fill="#2A211B"/>
+  <text x="351" y="123" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#FFFFFF">Coffee</text>
+  <rect x="388" y="108" width="60" height="22" rx="6" fill="#EDE7DD"/>
+  <text x="418" y="123" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#5D5348">Matcha</text>
+  <rect x="456" y="108" width="58" height="22" rx="6" fill="#EDE7DD"/>
+  <text x="485" y="123" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#5D5348">Pastry</text>
+  <!-- Menu items -->
+  <rect x="322" y="142" width="128" height="78" rx="8" fill="#FFFFFF" stroke="#E5DFD5"/>
+  <rect x="334" y="154" width="104" height="28" rx="5" fill="#E9DCC9"/>
+  <text x="334" y="198" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#2A211B">Oat Matcha</text>
+  <text x="334" y="212" font-family="system-ui, sans-serif" font-size="10" fill="#6F665B">$5.00</text>
+  <rect x="462" y="142" width="128" height="78" rx="8" fill="#FFFFFF" stroke="#E5DFD5"/>
+  <rect x="474" y="154" width="104" height="28" rx="5" fill="#D9C5B2"/>
+  <text x="474" y="198" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#2A211B">Flat White</text>
+  <text x="474" y="212" font-family="system-ui, sans-serif" font-size="10" fill="#6F665B">$4.20</text>
+  <rect x="322" y="232" width="128" height="78" rx="8" fill="#FFFFFF" stroke="#E5DFD5"/>
+  <rect x="334" y="244" width="104" height="28" rx="5" fill="#EFE4D4"/>
+  <text x="334" y="288" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#2A211B">Cold Brew</text>
+  <text x="334" y="302" font-family="system-ui, sans-serif" font-size="10" fill="#6F665B">$4.00</text>
+  <rect x="462" y="232" width="128" height="78" rx="8" fill="#FFFFFF" stroke="#E5DFD5"/>
+  <rect x="474" y="244" width="104" height="28" rx="5" fill="#DFD3C3"/>
+  <text x="474" y="288" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#2A211B">Butter Croissant</text>
+  <text x="474" y="302" font-family="system-ui, sans-serif" font-size="10" fill="#6F665B">$3.80</text>
+</svg>

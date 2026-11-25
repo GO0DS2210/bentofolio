@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="BookVault mobile library UI redesign mockup">
+  <rect width="640" height="360" fill="#ECE6E1"/>
+  <rect x="108" y="26" width="194" height="308" rx="26" fill="#171C22" stroke="#36414F" stroke-width="2"/>
+  <rect x="118" y="38" width="174" height="284" rx="18" fill="#FAF8F5"/>
+  <rect x="176" y="46" width="58" height="6" rx="3" fill="#D4CFC8"/>
+  <text x="134" y="80" font-family="Georgia, serif" font-size="16" fill="#171C22">Book Catalog</text>
+  <rect x="134" y="92" width="142" height="26" rx="7" fill="#EDE8E1"/>
+  <text x="146" y="109" font-family="system-ui, sans-serif" font-size="10" fill="#6F6860">Search title or author...</text>
+  <rect x="134" y="130" width="142" height="72" rx="8" fill="#FFFFFF" stroke="#E4DED6"/>
+  <rect x="144" y="140" width="38" height="52" rx="4" fill="#B43E1A"/>
+  <text x="192" y="156" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#171C22">Clean Code</text>
+  <text x="192" y="170" font-family="system-ui, sans-serif" font-size="9" fill="#6F6860">Robert C. Martin</text>
+  <rect x="192" y="178" width="58" height="14" rx="4" fill="#E3F0E7"/>
+  <text x="221" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8.5" font-weight="600" fill="#14532D">Available</text>
+  <rect x="134" y="212" width="142" height="72" rx="8" fill="#FFFFFF" stroke="#E4DED6"/>
+  <rect x="144" y="222" width="38" height="52" rx="4" fill="#1A4FD6"/>
+  <text x="192" y="238" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#171C22">Design Systems</text>
+  <text x="192" y="252" font-family="system-ui, sans-serif" font-size="9" fill="#6F6860">Alla Kholmatova</text>
+  <rect x="192" y="260" width="58" height="14" rx="4" fill="#E3F0E7"/>
+  <text x="221" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8.5" font-weight="600" fill="#14532D">Shelf B-04</text>
+
+  <rect x="338" y="26" width="194" height="308" rx="26" fill="#171C22" stroke="#36414F" stroke-width="2"/>
+  <rect x="348" y="38" width="174" height="284" rx="18" fill="#FAF8F5"/>
+  <rect x="406" y="46" width="58" height="6" rx="3" fill="#D4CFC8"/>
+  <rect x="364" y="66" width="142" height="94" rx="10" fill="#232B35"/>
+  <text x="435" y="110" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#FAF8F5">Clean Code</text>
+  <text x="435" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#C4CED9">Engineering Craft</text>
+  <text x="364" y="182" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#171C22">Loan Status</text>
+  <text x="364" y="198" font-family="system-ui, sans-serif" font-size="9.5" fill="#5D564E">3 copies available on Floor 2</text>
+  <text x="364" y="214" font-family="system-ui, sans-serif" font-size="9.5" fill="#5D564E">Standard loan: 7 days</text>
+  <rect x="364" y="246" width="142" height="34" rx="8" fill="#B43E1A"/>
+  <text x="435" y="267" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Reserve Book</text>
+</svg>

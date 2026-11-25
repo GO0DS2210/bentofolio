@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="TaskFlow offline workspace UI mockup">
+  <rect width="640" height="360" fill="#DDE4EE"/>
+  <rect x="28" y="24" width="584" height="312" rx="12" fill="#121821" stroke="#283548" stroke-width="1.5"/>
+  <rect x="28" y="24" width="144" height="312" rx="12" fill="#18202C"/>
+  <rect x="158" y="24" width="14" height="312" fill="#18202C"/>
+  <text x="48" y="60" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F2F5F8">TaskFlow</text>
+  <rect x="44" y="82" width="112" height="28" rx="6" fill="#1A4FD6"/>
+  <text x="56" y="100" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">This Week</text>
+  <text x="56" y="132" font-family="system-ui, sans-serif" font-size="11" fill="#9AA8BA">Milestones</text>
+  <text x="56" y="160" font-family="system-ui, sans-serif" font-size="11" fill="#9AA8BA">Focus Timer</text>
+  <text x="56" y="188" font-family="system-ui, sans-serif" font-size="11" fill="#9AA8BA">JSON Backup</text>
+  <text x="196" y="60" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#F2F5F8">Active Tasks &amp; Milestones</text>
+  <rect x="196" y="80" width="188" height="232" rx="10" fill="#1A2230" stroke="#2B374A"/>
+  <text x="212" y="104" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#9BB8FF">In Progress</text>
+  <rect x="210" y="118" width="160" height="72" rx="8" fill="#232E40"/>
+  <text x="222" y="140" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#F2F5F8">API Schema Sync</text>
+  <text x="222" y="158" font-family="system-ui, sans-serif" font-size="10" fill="#A6B4C4">Due: Thu, 18:00</text>
+  <rect x="222" y="170" width="66" height="10" rx="4" fill="#1A4FD6"/>
+  <rect x="210" y="202" width="160" height="72" rx="8" fill="#232E40"/>
+  <text x="222" y="224" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#F2F5F8">Portfolio UI Kit</text>
+  <text x="222" y="242" font-family="system-ui, sans-serif" font-size="10" fill="#A6B4C4">Due: Sat, 19:00</text>
+  <rect x="222" y="254" width="94" height="10" rx="4" fill="#2E8B57"/>
+
+  <rect x="400" y="80" width="188" height="232" rx="10" fill="#1A2230" stroke="#2B374A"/>
+  <text x="416" y="104" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#7DE2A8">Completed</text>
+  <rect x="414" y="118" width="160" height="62" rx="8" fill="#232E40"/>
+  <text x="426" y="140" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#F2F5F8">Design Token Audit</text>
+  <text x="426" y="158" font-family="system-ui, sans-serif" font-size="10" fill="#7DE2A8">Verified · 100%</text>
+  <rect x="414" y="192" width="160" height="62" rx="8" fill="#232E40"/>
+  <text x="426" y="214" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#F2F5F8">Print Resume Layout</text>
+  <text x="426" y="232" font-family="system-ui, sans-serif" font-size="10" fill="#7DE2A8">Verified · 100%</text>
+</svg>
